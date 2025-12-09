@@ -95,179 +95,298 @@
     </header>
 
     <main class="container">
+      
+      <div class="row">
+        
+        <div class="col-12 col-lg-9 ">
+          
+          <div class="d-flex justify-content-between ">
 
-        <div class="d-flex justify-content-between">
+                <h2 class="fs-1">Catalogo Libri</h2>
 
-            <h2 class="fs-1">Catalogo Libri</h2>
+                <button type="button" class="btn btn-primary">Aggiungi Libro</button>
 
-            <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+          </div>
+
+          <div class="table mb-4">
+
+            <table class="table table-striped">
+
+                <thead>
+
+                    <tr>
+
+                        <th class="w-50">Titolo</th>
+                        <th class="d-none d-md-table-cell w-md-auto">Data prestito</th>
+                        <th class="w.auto">Stato</th>
+                        <th class="w-auto">Azioni</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>I pilastri della terra</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>I promessi sposi</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Il signore degli anelli</td>
+                        <td class="d-none d-md-table-cell">18/10/2023</td>
+                        <td><span class="badge text-bg-warning">In prestito</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Harry potter</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Il codice da vinci</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-danger">Non disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Shining</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>La divina commedia</td>
+                        <td class="d-none d-md-table-cell">21/09/2023</td>
+                        <td><span class="badge text-bg-warning">In prestito</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Il trono di spade</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Il mondo di sofia</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-danger">Non disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Le cronache di Narnia:il leone, la strega e l'armadio</td>
+                        <td class="d-none d-md-table-cell">25/07/2023</td>
+                        <td><span class="badge text-bg-warning">In prestito</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Il piccolo principe</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>La storia infinita</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                          <span class="material-symbols-outlined">edit</span>
+                          <span class="material-symbols-outlined">delete</span>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+          </div>
 
         </div>
 
-        <table class="table table-striped">
+        <div class="d-flex flex-column col-12 col-lg-3">
 
-            <thead>
+          <div class="card w-100 mb-4" style="">
+            
+            <div class="card-header fs-2 fw-bold">
+              Todo
+            </div>
 
-                <tr>
+            <ul class="list-group m-2 border border-2 rounded">
 
-                    <th class="w-50">Titolo</th>
-                    <th class="d-none d-md-block w-md-auto">Data prestito</th>
-                    <th class="w.auto">Stato</th>
-                    <th class="w-auto">Azioni</th>
+              <li class="list-group-item">
 
-                </tr>
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
 
-            </thead>
+                <label class="form-check-label" for="firstCheckbox">Chiamare segretaria</label>
 
-            <tbody>
+              </li>
 
-                <tr>
+              <li class="list-group-item">
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
 
-                </tr>
+                <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
 
-                <tr>
+              </li>
 
-                    <td>I promessi sposi</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+              <li class="list-group-item">
 
-                </tr>
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
 
-                <tr>
+                <label class="form-check-label" for="thirdCheckbox">ordinare nuovi libri</label>
 
-                    <td>Il signore degli anelli</td>
-                    <td>18/10/2023</td>
-                    <td><span class="badge text-bg-warning">In prestito</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+              </li>
 
-                </tr>
+            </ul>
+           
+          </div>
 
-                <tr>
+          <div class="card w-100" style="">
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+            <div class="card-header fs-2 fw-bold">
+              F.A.Q
+            </div>
 
-                </tr>
+            <div class="accordion accordion-flush m-2" id="accordionFlushExample">
 
-                <tr>
+              <div class="accordion-item">
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                <h2 class="accordion-header">
 
-                </tr>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Come aggiungere un nuovo libro?
+                  </button>
 
-                <tr>
+                </h2>
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 
-                </tr>
+                  <div class="accordion-body">aggiungi un tr al body</div>
 
-                <tr>
+                </div>
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+              </div>
 
-                </tr>
+              <div class="accordion-item">
 
-                <tr>
+                <h2 class="accordion-header">
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Come posso accedere all'anagrafica utenti?
+                  </button>
 
-                </tr>
+                </h2>
 
-                <tr>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                  <div class="accordion-body">cliccare sul nome utante</div>
 
-                </tr>
+                </div>
 
-                <tr>
+              </div>
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+              <div class="accordion-item">
 
-                </tr>
+                <h2 class="accordion-header">
 
-                <tr>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Posso usare questa dashbord da mobile?
+                  </button>
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                </h2>
 
-                </tr>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 
-                <tr>
+                  <div class="accordion-body">Certo puoi usarla anche da mobile</div>
 
-                    <td>I pilastri della terra</td>
-                    <td>-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>
-                      <span class="material-symbols-outlined">edit</span>
-                      <span class="material-symbols-outlined">delete</span>
-                    </td>
+                </div>
 
-                </tr>
+              </div>
 
-            </tbody>
+            </div>
 
-        </table>
+          </div>
+
+        </div>
+
+      </div>
+
     </main>
 
     <script
