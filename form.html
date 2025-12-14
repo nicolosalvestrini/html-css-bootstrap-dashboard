@@ -12,13 +12,9 @@
     <!--header navbar-->
 
     <header class="mb-4">
-
         <nav class="navbar navbar-expand-lg bg-black navbar-dark">
-
         <div class="container-fluid">
-
           <a class="navbar-brand" href="#"><img src="./img/duck.png" alt="" class=""></a>
-
           <button
             class="navbar-toggler"
             type="button"
@@ -29,47 +25,26 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
               <li class="nav-item">
-
                 <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
-
               </li>
-
               <li class="nav-item">
-
                 <a class="nav-link" href="#">Anagrafica Utenti</a>
-
               </li>
-
               <li class="nav-item">
-
                 <a class="nav-link" href="#">Storico Prestiti</a>
-
               </li>
-
               <li class="nav-item">
-
                 <a class="nav-link" href="#">Help</a>
-
               </li>
-
                 </ul>
-
             </ul>
-
           </div>
-
         </div>
-
       </nav>
-
     </header>
 
     <!--/header navbar-->
@@ -78,8 +53,9 @@
 
     <main class="container">
 
-        <div class="row">
+        <!--add input name lastname and title-->
 
+        <div class="row">
             <h1 class="mb-4">Nuovo Libro</h1>
             <div class="col-6 mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nome Autore</label>
@@ -95,6 +71,10 @@
                 <div id="emailHelp" class="form-text">Titolo versione italiana</div>
             </div>
         </div>
+
+        <!--/add input name lastname and title-->
+
+        <!--add input gender year isbn-->
 
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -117,34 +97,40 @@
             </div>
         </div>
 
+        <!--/add input gender year isbn-->
+
         <div class="text-success mb-4">
             <hr>
         </div>
 
-        <div class="row">
+        <!--add input note-->
 
+        <div class="row">
             <div class="mb-3 col-12">
                 <label for="exampleFormControlTextarea1" class="form-label">Note</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
             </div>
-            
         </div>
 
-        <footer>
+        <!--/add input note-->
 
+        <!--add input check and button-->
+
+        <footer>
             <div class="form-check mb-3 col-12">
                 <input class="form-check-input" type="checkbox" value="" id="checkDefault">
                 <label class="form-check-label" for="checkDefault">
                      Disponibile anche in digitale
                 </label>
             </div>
-
             <button type="button" class="btn btn-primary">Aggiungi Libro</button>
-
         </footer>
 
-        
+        <!--add input check and button-->
+
     </main>
+
+    <!--/main form-->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
